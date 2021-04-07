@@ -1,0 +1,28 @@
+@import
+	url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap')
+	;
+
+
+header {
+	border-radius: 30px;
+	white-space: nowrap;
+	position: fixed;
+	top: 0;
+	justify-content: space-between;
+	alighn-items: center;
+	transition: 0.6s;
+	z-index: 100000;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+.row {
+	content: "";
+	clear: both;
+	display: table;
+	animation: animatedBackground 3s linear infinite;
+}

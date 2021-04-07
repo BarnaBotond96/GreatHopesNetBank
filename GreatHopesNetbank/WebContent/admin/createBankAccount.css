@@ -1,0 +1,125 @@
+@import
+	url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap')
+	;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+	min-height: 100px;
+	min-width: 350px;
+	margin-left: 170px;
+	margin-right: 170px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	position: relative;
+	padding: 40px 40px 50px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.9), 2px 2px 6px
+		rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+	color: #0E0101;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.form .input {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.form .input .inputBox {
+	margin-top: 20px;
+}
+
+.form .input .inputBox label {
+	text-align: center;
+	display: block;
+	color: #0E0101;
+	margin-bottom: 5px;
+	font-size: 17px;
+	display: block;
+}
+
+.form .input .inputBox input {
+	text-align: center;
+	widows: 100%;
+	height: 50px;
+	border: none;
+	outline: none;
+	background: rgba(0, 0, 0, 0);
+	border-radius: 30px;
+	padding: 5px 20px;
+	font-size: 16px;
+	outline: none;
+	color: #0E0101;
+	box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.9), inset 2px 2px
+		6px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+	height: 50px;
+	border: none;
+	outline: none;
+	border-radius: 30px;
+	padding: 5px 20px;
+	background: 0, 0, 0, 0;
+	color: #0E0101;
+	margin-top: 25px;
+	box-shadow: -2px -2px 6px rgba(0, 0, 0, 0.1), 2px 2px 6px
+		rgba(0, 0, 0, 0.1);
+}
+
+.form .input button {
+	height: 50px;
+	border: none;
+	outline: none;
+	border-radius: 30px;
+	padding: 5px 20px;
+	background: 0, 0, 0, 0;
+	color: #0E0101;
+	margin-top: 25px;
+	box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.9), 2px 2px 6px
+		rgba(0, 0, 0, 0.1);
+	background: 0, 0, 0, 0;
+}
+
+.form .input .inputBox select {
+	height: 50px;
+	border: none;
+	outline: none;
+	background: rgba(0, 0, 0, 0);
+	border-radius: 30px;
+	padding: 5px 20px;
+	font-size: 16px;
+	outline: none;
+	color: #0E0101;
+	box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 1), inset 2px 2px
+		10px rgba(0, 0, 0, 0.1);
+}
+
+.form .input button:active {
+	color: #20B2AA;
+	margin-top: 25px;
+	box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.9), inset 2px 2px
+		6px rgba(0, 0, 0, 0.1);
+}
+
+.form .input .inputBox input::placeholder {
+	color: #A9A9A9;
+	font-size: 18px;
+}
